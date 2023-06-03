@@ -4,7 +4,8 @@
   "description": "Backend for mellowspins.ca, web player for custom mixes created by DJ mellowspins, online platform for client purchases of their 10 favorite songs in a personalized mix. ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "author": "Jonathan Mohabir aka MELLOWSPINS ",
   "license": "ISC",
