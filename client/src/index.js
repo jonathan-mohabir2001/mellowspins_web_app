@@ -8,6 +8,8 @@ import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 // Browser Router Object Imported from package
 
+import 'bootstrap/dist/css/bootstrap.min.css'; // Bootstrap recognized Globally
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // BrowserRouter Wrapping the imported App.js object "App"
