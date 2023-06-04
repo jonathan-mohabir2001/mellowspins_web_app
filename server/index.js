@@ -1,4 +1,9 @@
-// Entry Point for backend
+/*
+MELLOWSPINS.CA Node.js Express.js Backend. 
+
+This file is the index file which is the entry point for my 
+backend for this web application. 
+*/
 const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 8000;
